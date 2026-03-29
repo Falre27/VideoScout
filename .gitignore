@@ -1,0 +1,23 @@
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# TikTok session data
+.tiktok-session.json
+
+# Next.js build output
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# System files
+.DS_Store
+
+# Vercel
+.vercel
+
+# Claude Code settings
+.claude/
